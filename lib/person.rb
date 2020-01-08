@@ -38,8 +38,8 @@ class Person
     end
 
     def work_out
-        self.happiness=(@happiness+=2)
-        self.hygiene=(@hygiene-=3)
+        self.happiness +=2
+        self.hygiene -=3
         p "♪ another one bites the dust ♫"
     end
 
